@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import './App.css'
-import Search from './components/Search'
+import './index.css'
+import Search from './components/Search.jsx'
 
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
       <div className='pattern'/>
       <div className="wrapper">
         <header>
-          <img src='./hero-img.png' alt="hero"/>
+          <img src='/hero.png' alt="hero"/>
           <h1>Find <span className='text-gradient'>Movies</span> You'll Enjoy</h1>
         </header>
 
